@@ -4,8 +4,8 @@ def Dog
 
   def initialize(name)
     @name = name
-    @@dogs << self
+    @@all << self
   end
 
-  
+
 end
