@@ -11,8 +11,9 @@ class Dog
     @@all.clear
   end
 
-  def class.all?
+  def self.all
     @@all.each do |dog|
       puts dog
+    end
   end
 end
