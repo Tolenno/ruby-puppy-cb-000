@@ -1,6 +1,6 @@
 def Dog
   attr_accessor :name
-  @@dogs
+  @@dogs = []
 
   def initialize(name)
     @name = name
